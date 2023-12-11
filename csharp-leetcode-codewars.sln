@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-leetcode-codewars", "csharp-leetcode-codewars\csharp-leetcode-codewars.csproj", "{2901417F-CFDF-4AA7-B22E-E213A216529E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test-csharp-leetcode-codewars", "test-csharp-leetcode-codewars\test-csharp-leetcode-codewars.csproj", "{E41F0823-BB55-4A65-9A38-7E6640792578}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2901417F-CFDF-4AA7-B22E-E213A216529E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2901417F-CFDF-4AA7-B22E-E213A216529E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2901417F-CFDF-4AA7-B22E-E213A216529E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2901417F-CFDF-4AA7-B22E-E213A216529E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E41F0823-BB55-4A65-9A38-7E6640792578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41F0823-BB55-4A65-9A38-7E6640792578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41F0823-BB55-4A65-9A38-7E6640792578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41F0823-BB55-4A65-9A38-7E6640792578}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
