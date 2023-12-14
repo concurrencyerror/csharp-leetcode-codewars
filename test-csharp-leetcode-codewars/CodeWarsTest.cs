@@ -10,6 +10,12 @@ public class Tests
     [Test]
     public void Test1()
     {
-        Assert.Pass();
+        char a = 'a';
+        for (int i = 0; i < 10; i++)
+        {
+            Console.WriteLine(a);
+            a++;
+        }
+        
     }
 }

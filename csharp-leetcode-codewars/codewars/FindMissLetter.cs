@@ -10,10 +10,14 @@ namespace leetcode.codewar
     {
         public static char FindMissingLetter(char[] array)
         {
-            for (int i = 0; i < array.Length; i++)
+            var tmp = array[0];
+            for (int i = 1; i < array.Length; i++)
             {
-                if (array[i] != array[0]+i) {
-                    return array[i];
+                tmp++;
+                char letter = array[i];
+                if (tmp != letter)
+                {
+                    return tmp;
                 }
             }
             return '_';
